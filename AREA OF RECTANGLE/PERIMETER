@@ -1,0 +1,13 @@
+//AREA OF RECTANGLE/PERIMETER
+#include<iostream>
+using namespace std;
+main()
+{
+	int l,b,area,peri;
+	cout<<"Enter the value of length and breadth";
+	cin>>l>>b;
+	area=l*b;
+	peri=2*(l+b);
+	cout<<"Area="<<area;
+	cout<<"Perimeter="<<peri;
+}
